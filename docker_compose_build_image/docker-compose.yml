@@ -10,7 +10,7 @@ services:
         - APP_VERSION=2.0
     environment:
       - DEBUG=true
-    image: anshuldevops/python_web:2.1
+    image: bettergreat/python_web:2.5
 
   node_service:
     build:
@@ -21,4 +21,4 @@ services:
         - APP_NAME=my-nodejs-app
     environment:
       - NODE_ENV=development
-    image: bettergreatlearn/node_web:2.1
+    image: bettergreat/node_web:2.5
