@@ -10,7 +10,11 @@ services:
         - APP_VERSION=2.0
     environment:
       - DEBUG=true
+<<<<<<< HEAD
     image: bettergreat/python_web:2.5
+=======
+    image: bettergreat/python_web:2.1
+>>>>>>> 46e290b603bef7f8212aa39104e56d9836e137e2
 
   node_service:
     build:
@@ -21,4 +25,8 @@ services:
         - APP_NAME=my-nodejs-app
     environment:
       - NODE_ENV=development
+<<<<<<< HEAD
     image: bettergreat/node_web:2.5
+=======
+    image: bettergreat/node_web:2.1
+>>>>>>> 46e290b603bef7f8212aa39104e56d9836e137e2
